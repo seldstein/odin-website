@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+}
+
+#dragon {
+    display: flex;
+    flex: 1;
+}
+
+.nav {
+    display: flex;
+    gap: 12px;
+}
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #0F7E57;
+}
+
+h1, h2, h3 {
+    font-family: Luminari;
+}
