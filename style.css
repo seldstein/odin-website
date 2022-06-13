@@ -40,6 +40,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 72px;
 }
 
 .title {
@@ -59,6 +60,29 @@ body {
     max-width: 75px;
 }
 
+.section3 {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.content3 {
+    margin-top: 72px;
+    margin-bottom: 72px;
+}
+
+.section4 {
+    padding: 72px 20%;
+}
+
+.content4 {
+    background-color: #3b82f6;
+    color: white;
+    padding: 32px 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -76,4 +100,11 @@ a {
     width: 75px;
     height: 75px;
     border: solid;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
