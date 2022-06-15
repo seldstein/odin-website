@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .section1 {
@@ -11,11 +12,17 @@ body {
 .header {
     color: white;
     padding: 8px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.logo {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .content1 {
@@ -24,40 +31,53 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 28px;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 72px;
-    margin-bottom: 72px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 72px;
+    padding-bottom: 100px;
 }
 
 #image {
     width: 400px;
     height: 200px;
     background-color: grey;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .section2 {
     display: flex;
     flex-direction: column;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    margin-bottom: 72px;
+    justify-content: center;
+    padding: 48px;
 }
 
 .title {
-    margin: 20px;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom:24px;
 }
 
 .container {
     text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     gap: 42px;
 }
 
 .info {
     display: flex;
     flex-direction: column;
-    max-width: 75px;
+    align-items: center;
 }
 
 .section3 {
@@ -67,8 +87,6 @@ body {
 }
 
 .content3 {
-    margin-top: 72px;
-    margin-bottom: 72px;
 }
 
 .section4 {
@@ -79,6 +97,13 @@ body {
     background-color: #3b82f6;
     color: white;
     padding: 32px 64px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.test {
     display: flex;
     justify-content: space-between;
 }
@@ -93,13 +118,18 @@ ul {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+
 }
 
 .image {
-    width: 75px;
-    height: 75px;
+    width: 150px;
+    height: 150px;
     border: solid;
+    border-color: #3b82f6;
+    border-radius: 8px;
 }
 
 .footer {
@@ -107,4 +137,54 @@ a {
     color: white;
     text-align: center;
     padding: 20px;
+}
+
+.subtext {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.maintext {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 8px 16px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.button1 {
+    border: none;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 72px 72px;
+}
+
+.thor {
+    text-align: right;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.call {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.button2 {
+    border-color: white;
+    border: solid;
 }
